@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.add-block {
+    display: flex;
+    justify-content: center;
+
+    margin: 20px 0;
+}
+
+.add-block #desc {
+    width: 250px;
+    height: 40px;
+
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    padding-left: 10px;
+}
+
+.add-block #desc:focus {
+    outline: none;
+    box-shadow:none;
+}
+
+.add-block #btn {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0px;
+}
+
+.add-block #btn:hover {
+    cursor: pointer;
+}
+
+main {
+    width: 600px;
+
+    background-color: aquamarine;
+
+    margin: 20px auto;
+}
+
+main header {
+    width: 100%;
+    height: 50px;
+
+    background-color: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main ul {
+    width: 100%;
+    height: 100%;
+
+    background-color: rosybrown;
+}
+
+main ul li {
+    width: 100%;
+    height: 30px;
+
+    background-color: burlywood;
+
+    border: 1px solid black;
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+ul li .edit {
+    width: 25px;
+    height: 25px;
+}
+
+ul li .close {
+    width: 25px;
+    height: 25px;
+
+    color: red;
+}
+
+ul li .done {
+    width: 40px;
+    height: 25px;
+}
+
+.edit-div {
+    display: none;
+}
+
+.edit-div .edit-input {
+    height: 25px;
+    padding-left: 5px;
+}
+
+.edit-div .confirm{
+    width: 25px;
+    height: 25px;
+
+    color: green;
+}
+
+.edit-div .discard {
+    width: 25px;
+    height: 25px;
+
+    color: red;
+}
